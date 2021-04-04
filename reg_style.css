@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background-color:#ecf0f3;   
+}
+
+.login{
+    width: 450px;
+    height: 580px;
+    padding: 40px 35px 35px 35px; 
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #cbced1;    
+}
+
+.reg{
+    width: 100%;
+    text-align: center;          
+}
+.reg input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;    
+    color: #555;
+    padding: 0%;
+}
+
+#fname{
+    padding: 14px 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+    transition: all .3s;    
+}
+
+#lname{
+    padding: 14px 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+    transition: all .3s;
+}
+
+#email{
+    padding: 14px 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+    transition: all .3s;
+}
+
+#no{
+    padding: 14px 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+    transition: all .3s;
+}
+
+#pass{
+    padding: 14px 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+    transition: all .3s;
+}
+
+#passc{
+    padding: 14px 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+    transition: all .3s;
+}
+
+.reg button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px 90px;
+    
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: #02c8db;
+    box-shadow: 3px 3px 8px #b1b1b1, 
+    -3px -3px 8px #fff;
+    transition: all 1s;    
+}
+
+.reg button:hover{
+    background-color: #50e5b9;
+    border: solid 1px;
+    border-color:#555; 
+       
+}
+
+.reg button:active{
+    background-color: #88ef9e;
+}
+    
+a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 18px;
+}
+    
+a:hover{
+    color:black;
+}
+
+a:active{
+    color:blue;
+}
+
+.msg{
+    margin-top: 15px;
+    font-size: 15px;
+} 
